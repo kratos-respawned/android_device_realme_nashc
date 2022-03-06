@@ -15,3 +15,7 @@
 #
 
 DEVICE_PATH := device/realme/RMX2001
+
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(DEVICE_PATH)
