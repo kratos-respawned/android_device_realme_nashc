@@ -1,4 +1,7 @@
 [
   {
+    "repository" : "TheMalachite/kernel_realme_mt6785",
+    "target_path" : "kernel/realme/mt6785"
+    "branch" : "frico-release"
   }
 ]
