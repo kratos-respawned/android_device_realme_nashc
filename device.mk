@@ -16,6 +16,15 @@
 
 DEVICE_PATH := device/realme/RMX2001
 
+# Init
+PRODUCT_PACKAGES += \
+    fstab.mt6785 \
+    fstab.enableswap
+
+## Init scripts
+PRODUCT_PACKAGES += \
+    swap_enable.sh
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH)
