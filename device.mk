@@ -18,8 +18,7 @@ DEVICE_PATH := device/realme/RMX2001
 
 # Init
 PRODUCT_PACKAGES += \
-    fstab.mt6785 \
-    fstab.enableswap
+    fstab.mt6785
 
 ## Init scripts
 PRODUCT_PACKAGES += \
