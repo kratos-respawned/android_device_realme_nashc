@@ -92,6 +92,9 @@ TARGET_COPY_OUT_VENDOR := vendor
 
 BUILD_WITHOUT_VENDOR := true
 
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/props/system.prop
+
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6785
 BOARD_USES_RECOVERY_AS_BOOT := false
