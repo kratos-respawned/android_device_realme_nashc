@@ -16,6 +16,10 @@
 
 DEVICE_PATH := device/realme/RMX2001
 
+# Camera
+PRODUCT_PACKAGES += \
+    Snap
+
 # Init
 PRODUCT_PACKAGES += \
     fstab.mt6785
