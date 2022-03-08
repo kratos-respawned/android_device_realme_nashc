@@ -24,6 +24,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     swap_enable.sh
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-lineage
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH)
+
